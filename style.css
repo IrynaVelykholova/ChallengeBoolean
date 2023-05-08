@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-container{
+    background-image: url('background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    padding: 50px 50px 50px 50px;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    min-height: 80%;
+    transform: translate(-50%);
+    border-radius: 16px;
+}
+.top-part .image-top-container img{
+    display:block;
+    margin:0px auto;
+    text-align:center;
+    height: 135px;
+    width: 300px;
+}
+.subtitle{
+    font-weight: 700px;
+    font-size: 28px;
+    text-align: center;
+    color: rgb(51, 255, 0);
+    margin-bottom: 12px;
+}
+.block-buttons{
+    background-color: rgb(51, 255, 0);
+    height: 60px;
+}
+.block-buttons .container-buttons{
+    position: relative;
+    width: fit-content;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.block-buttons button{
+    vertical-align: middle;
+    margin-right: 8px;
+    padding: 2px;
+    cursor: pointer;
+}
+.main-part{
+    width: 100%;
+    height: fit-content;
+}
+.main-part .item-block{
+    margin-top: 28px;
+    color: #fff;
+}
+.main-part .item-block .title .name-item{
+    width: fit-content;
+    display: inline-block;
+    font-size: 24px;
+}
+.main-part .item-block .title,.main-part .item-block .address-info,.main-part .item-block .charge-info{
+    margin-bottom: 8px;
+}
+.main-part .item-block .charge-info .charge-bar{
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+#Gino22{
+  background-color: sandybrown;
+  width: 35%;
+}
+#Mike24{
+   background-color: rgb(51, 255, 0);
+    width:65%;
+}
+#Fede154{
+    background-color: rgb(196, 55, 55);
+    width: 12%;
+}
